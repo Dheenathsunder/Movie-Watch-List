@@ -90,7 +90,7 @@ const initialMovies = [
     watched: false,
     favorite: false,
     poster:
-      "https://upload.wikimedia.org/wikipedia/en/7/7a/Social_Network_film_poster.jpg",
+      "https://m.media-amazon.com/images/M/MV5BMjlkNTE5ZTUtNGEwNy00MGVhLThmZjMtZjU1NDE5Zjk1NDZkXkEyXkFqcGc@._V1_FMjpg_UX675_.jpg",
   },
 ];
 

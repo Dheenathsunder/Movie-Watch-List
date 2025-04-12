@@ -7,6 +7,7 @@ const MovieForm = () => {
   const [title, setTitle] = useState("");
   const [genre, setGenre] = useState("");
   const [year, setYear] = useState("");
+  const [poster, setPoster] = useState(""); // New state for poster URL
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -24,12 +25,14 @@ const MovieForm = () => {
       genre,
       year,
       watched: false,
+      poster, // Include poster in the new movie object
     };
 
     addMovie(newMovie);
     setTitle("");
     setGenre("");
     setYear("");
+    setPoster(""); // Clear poster field after submission
   };
 
   return (
@@ -51,6 +54,12 @@ const MovieForm = () => {
         placeholder="Year"
         value={year}
         onChange={(e) => setYear(e.target.value)}
+      />
+      <input
+        type="text"
+        placeholder="Poster URL" // New input field for poster URL
+        value={poster}
+        onChange={(e) => setPoster(e.target.value)}
       />
       <button type="submit">Add Movie</button>
     </form>

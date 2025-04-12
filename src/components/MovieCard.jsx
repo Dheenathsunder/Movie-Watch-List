@@ -8,6 +8,11 @@ const MovieCard = (props) => {
   return (
     <div className={`movie-card ${movie.watched ? "watched" : ""}`}>
       <div className="movie-header">
+        <img
+            src={movie.poster}
+            alt={`${movie.title} poster`}
+            className="movie-poster"
+        />
         <h3>
           {movie.title} ({movie.year})
         </h3>

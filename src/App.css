@@ -127,6 +127,14 @@ main {
   opacity: 0;
 }
 
+.movie-poster {
+  width: 300px;
+  height: 500px;
+  object-fit: cover;
+  margin-bottom: 10px;
+  border-radius: 8px;
+}
+
 .movie-card.watched {
   border-left: 4px solid #22c55e;
 }
@@ -135,7 +143,7 @@ main {
 }
 
 .movie-header {
-  display: flex;
+  display: block;
   justify-content: space-between;
   align-items: center;
   font-weight: 600;
