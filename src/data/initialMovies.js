@@ -1,11 +1,14 @@
+// src/data/initialMovies.js
+
 const initialMovies = [
   {
     id: 1,
     title: "Inception",
     year: "2010",
-    genre: "Sci-Fi",
+    genre: "Sci‑Fi",
     watched: true,
     favorite: true,
+    poster: "https://image.tmdb.org/t/p/w500/8s4h9friP6Ci3adRGahHARVd76E.jpg",
   },
   {
     id: 2,
@@ -14,14 +17,16 @@ const initialMovies = [
     genre: "Crime",
     watched: true,
     favorite: false,
+    poster: "https://image.tmdb.org/t/p/w500/rPdtLWNsZmAtoZl9PK7S2wE3qiS.jpg",
   },
   {
     id: 3,
     title: "Interstellar",
     year: "2014",
-    genre: "Sci-Fi",
+    genre: "Sci‑Fi",
     watched: false,
     favorite: false,
+    poster: "https://image.tmdb.org/t/p/w500/rAiYTfKGqDCRIIqo664sY9XZIvQ.jpg",
   },
   {
     id: 4,
@@ -30,6 +35,7 @@ const initialMovies = [
     genre: "Action",
     watched: true,
     favorite: true,
+    poster: "https://image.tmdb.org/t/p/w500/qJ2tW6WMUDux911r6m7haRef0WH.jpg",
   },
   {
     id: 5,
@@ -38,6 +44,7 @@ const initialMovies = [
     genre: "Drama",
     watched: false,
     favorite: false,
+    poster: "https://image.tmdb.org/t/p/w500/saHP97rTPS5eLmrLQEcANmKrsFl.jpg",
   },
   {
     id: 6,
@@ -46,6 +53,7 @@ const initialMovies = [
     genre: "Romance",
     watched: false,
     favorite: false,
+    poster: "https://image.tmdb.org/t/p/w500/uDO8zWDhfWwoFdKS4fzkUJt0Rf0.jpg",
   },
   {
     id: 7,
@@ -54,6 +62,7 @@ const initialMovies = [
     genre: "Animation",
     watched: true,
     favorite: true,
+    poster: "https://image.tmdb.org/t/p/w500/39wmItIWsg5sZMyRUHLkWBcuVCM.jpg",
   },
   {
     id: 8,
@@ -62,6 +71,7 @@ const initialMovies = [
     genre: "Thriller",
     watched: true,
     favorite: false,
+    poster: "https://image.tmdb.org/t/p/w500/7IiTTgloJzvGI1TAYymCfbfl3vT.jpg",
   },
   {
     id: 9,
@@ -70,6 +80,7 @@ const initialMovies = [
     genre: "Superhero",
     watched: false,
     favorite: false,
+    poster: "https://image.tmdb.org/t/p/w500/or06FN3Dka5tukK1e9sl16pB3iy.jpg",
   },
   {
     id: 10,
@@ -78,6 +89,8 @@ const initialMovies = [
     genre: "Biography",
     watched: false,
     favorite: false,
+    poster:
+      "https://upload.wikimedia.org/wikipedia/en/7/7a/Social_Network_film_poster.jpg",
   },
 ];
 
